@@ -1,0 +1,158 @@
+
+body{
+	/* Imatge de fons de la pàgina */
+	background-image:url('../img/fons.jpg');
+	text-align: center;
+
+
+}
+
+#main{
+			width:680px;
+			margin:auto;
+			padding-left: 35px;
+			background-image:url('../img/fons_pelis.png');
+}
+
+#list-films{
+	text-align:left;
+	/*padding-left:40px;*/
+}
+
+/* Propietats del títol de la pàgina */
+h1{
+	font:bold italic 18px Arial;
+	color:#ffffff;
+	background:url('../img/palomita.png') no-repeat 7px 7px;
+	padding: 10px 0px 30px 40px;
+	background-color:#083256;
+	text-align:left;
+}
+
+/* classe de l'etiqueta bloc de cada pel·lícula */
+.pelicula{
+	 height: 140px;
+	 text-align: left;
+	 background-color: #ffffff;
+	 padding:5px;
+	 margin:5px;
+}
+.img-polisse{
+	padding-left: 100px;
+	background:url("../img/peli_1.jpg") no-repeat center left;
+	background-size: 80px 112.4px;
+	min-height:120px;
+}
+
+.img-hugo{
+ padding-left: 112px;
+ background:url("../img/peli_2.jpg") no-repeat center left;
+ background-size: 80px 112.4px;
+ min-height:120px;
+}
+
+.img-Marilyn{
+	padding-left: 112px;
+ background:url("../img/peli_3.jpg") no-repeat center left;
+ background-size: 80px 112.4px;
+ min-height:120px;
+}
+
+.img-Warhorse{
+	padding-left: 112px;
+ background:url("../img/peli_4.jpg") no-repeat center left;
+ background-size: 80px 112.4px;
+ min-height:120px;
+}
+
+.img-Blanco{
+	padding-left: 112px;
+ background:url("../img/peli_5.jpg") no-repeat center left;
+ background-size: 80px 112.4px;
+ min-height:120px;
+}
+
+.img-Negro{
+	padding-left: 112px;
+ background:url("../img/peli_6.jpg") no-repeat center left;
+ background-size: 80px 112.4px;
+ min-height:120px;
+}
+
+.img-Tierra{
+	padding-left: 112px;
+ background:url("../img/peli_7.jpg") no-repeat center left;
+ background-size: 80px 112.4px;
+ min-height:120px;
+}
+
+.img-descript{
+	background-color: #ffffff;
+	padding: 2px;
+	margin: auto;
+
+	
+
+}
+.img-descript img{
+	float: left;
+	margin-right: 20px;
+	width: 230px ; height: 400px;
+	margin-bottom: 20px;
+}
+
+hr{
+	border-style: dashed;
+}
+
+#Warning{
+	background-color: #ffc849;
+	padding: 10px;
+	border-radius: 1px;
+	float: left;
+	text-align: center;
+	clear: both;
+	margin-bottom: 20px;
+	margin-right: 30px;
+}
+
+.music {
+	text-align: center;
+	margin-right: 55px;
+}
+
+#Titulohugo{
+	background-color: #CDCDCD;
+	padding: 2px;
+	margin-left: 20px;
+}
+
+.Footer {
+	background-color: blue;
+	color: white;
+}
+
+/* Propietats del títol de la pel·lícula */
+.pelicula h2{
+	padding:0;
+	padding-top:10px;
+	margin:3px;
+	font:bold 16px Arial;
+	color:#083256;
+}
+/* Propietats de la descripció pel·lícula */
+.pelicula p{
+	padding:0;
+	margin:3px;
+	font:normal 12px Arial;
+	color:#083256;
+	padding-bottom:20px;
+}
+/* Propietats dels enllaços */
+.pelicula a{
+	color:blue;
+}
+.pelicula a:hover{
+	color:orange;
+	font:normal 15px Arial;
+}
